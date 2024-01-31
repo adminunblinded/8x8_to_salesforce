@@ -6,6 +6,11 @@
   "author": "alphasec",
   "license": "MIT",
    "dependencies": {
+    "axios": "^0.24.0",
+    "moment-timezone": "",
+    "jsforce": "",
+    "express": "",
+    "node-cron": ""
   },
   "scripts": {
     "start": "node index.js"
