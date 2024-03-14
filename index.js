@@ -130,7 +130,7 @@ function main() {
     // 8x8 credentials
     const apiKey = 'eght_NWRmYzc0MzQtNDFlMy00MDI2LTlkMjItZmM1NTg0NDgzYzc3';
     const username = 'Unblinded.Mastery';
-    const password = 'Unblinded2024@';
+    const password = 'UBMastery711@x!!';
     const pbxId = 'unblindedmastery882';
     const startTime = moment().tz('America/New_York').subtract(1, 'hour').format('YYYY-MM-DD HH:mm:ss');
     const endTime = moment().tz('America/New_York').format('YYYY-MM-DD HH:mm:ss');
