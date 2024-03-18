@@ -125,7 +125,7 @@ function main() {
     const salesforceClientId = '3MVG9p1Q1BCe9GmBa.vd3k6U6tisbR1DMPjMzaiBN7xn.uqsguNxOYdop1n5P_GB1yHs3gzBQwezqI6q37bh9';
     const salesforceClientSecret = '1AAD66E5E5BF9A0F6FCAA681ED6720A797AC038BC6483379D55C192C1DC93190';
     const salesforceUsername = 'admin@unblindedmastery.com';
-    const salesforcePassword = 'Unblinded2023$';
+    const salesforcePassword = 'Unblinded2024$';
 
     // 8x8 credentials
     const apiKey = 'eght_NWRmYzc0MzQtNDFlMy00MDI2LTlkMjItZmM1NTg0NDgzYzc3';
