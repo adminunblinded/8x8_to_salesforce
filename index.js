@@ -46,7 +46,8 @@ function createSalesforceRecord(salesforceAccessToken, recordInfo) {
     const record = {
         Phone__c: recordInfo.callee,
         talkTime__c: recordInfo.talkTime,
-        callerName__c: recordInfo.callerName
+        callerName__c: recordInfo.callerName,
+        Status__c: recordInfo.missed !== '-' ? 'missed' : recordInfo.abandoned !== '-' ? 'abandoned' : recordInfo.answered !== '-' ? 'answered' : null
     };
 
     const headers = {
@@ -115,7 +116,10 @@ function extractInformation(callRecords) {
     return callRecords.map(record => ({
         callee: record.callee || '',
         talkTime: record.talkTime || '',
-        callerName: record.callerName || ''
+        callerName: record.callerName || '',
+        missed: record.missed || '',
+        abandoned: record.abandoned || '',
+        answered: record.answered || ''
     }));
 }
 
